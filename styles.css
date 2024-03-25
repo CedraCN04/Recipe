@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  font-family: "Young Serif";
+  font-weight: 600;
+}
+
+p {
+  font-family: Outfit;
+}
+
+hr {
+  width: 80%;
+  opacity: 0.4;
+}
+
+header img {
+  width: 100%;
+}
+
+.heading-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.title {
+  align-self: flex-start;
+  font-size: 30px;
+}
+
+.explanation {
+  margin: auto;
+  line-height: 25px;
+  font-size: 16px;
+  color: grey;
+  letter-spacing: 0.2px;
+}
+
+.preparation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  margin: 20px auto;
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.preparation-title {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation-list {
+  font-family: Outfit;
+  width: 70%;
+}
+
+.preparation-list li {
+  line-height: 30px;
+  color: grey;
+}
+
+.step-list {
+  font-weight: bold;
+  color: black;
+  padding: 0 10px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  margin: 20px auto;
+  padding: 10px;
+}
+.title-section {
+  color: hsl(332, 51%, 32%);
+}
+.ingredients-list {
+  font-family: Outfit;
+  width: 80%;
+}
+.ingredients-list span {
+  color: grey;
+  line-height: 30px;
+  padding-left: 5px;
+}
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  margin: 20px auto;
+  padding: 10px;
+}
+.instructions-list {
+  font-family: Outfit;
+  margin: 20px auto;
+}
+.instructions-list li {
+  color: grey;
+  line-height: 30px;
+  padding-left: 15px;
+}
+.instructions-list li {
+  color: hsl(332, 51%, 32%);
+  padding: 10px;
+}
+.instructions-list span {
+  color: grey;
+  line-height: 30px;
+}
+.instructions-step {
+  color: black !important;
+  font-weight: bold;
+}
+
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.nutrition-text {
+  color: grey;
+}
+
+.nutrition-info {
+  font-family: Outfit;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title-info {
+  color: grey;
+}
+
+.nutrition-value {
+  color: hsl(332, 51%, 32%);
+}
+
+.nutrition hr {
+  width: 100%;
+}
+/* Media queries */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+    max-width: 1440px;
+    width: 45%;
+  }
+  header {
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px auto;
+  }
+  header img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .heading-presentation {
+    width: 100%;
+  }
+  .explanation {
+    text-align: justify;
+  }
+  .preparation {
+    width: 80%;
+  }
+  .preparation-title {
+    padding-left: 20px;
+  }
+  .title-section {
+    padding-left: 20px;
+  }
+  .ingredients-list {
+    padding-left: 45px;
+  }
+  .instructions-list {
+    width: 85%;
+    margin-left: 5px;
+  }
+  .nutrition-info {
+    width: 50%;
+    margin: 0 50px;
+  }
+  .nutrition hr {
+    width: 95%;
+  }
+  .nutrition-text {
+    padding-left: 20px;
+  }
+}
+
